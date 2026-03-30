@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebDroid</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="nav-logo">WebDroid</div>
+        <ul class="nav-menu">
+            <li><a href="#wallpaper">Home</a></li>
+            <li><a href="#leadership">Leadership Corner</a></li>
+            <li><a href="#moments">Moments</a></li>
+            <li><a href="#hub">Hub</a></li>
+            <li><a href="#latest">Latest Projects</a></li>
+            <li><a href="#reflections">Reflections</a></li>
+            <li><a href="#diaries">Project Diaries</a></li>
+            <li><a href="#progress">Progress Tracker</a></li>
+        </ul>
+    </nav>
+
+    <!-- home slideshow -->
+    <div id="wallpaper" class="home-section">
+        <h1>Company Objectives</h1>
+        <p>To deliver cutting-edge web solutions that transform businesses and drive digital innovation</p>
+        <h1>Key Pillars</h1>
+        <p>Innovation • Quality • Customer Success • Technical Excellence</p>
+        <h1>Business Head Launch</h1>
+        <p>Watch our CEO's vision for the future of web development</p>
+        <h1>Our Mission</h1>
+        <p>Empowering businesses with custom web applications that accelerate growth and enhance user experience</p>
+        <h1>Core Values</h1>
+        <p>Integrity • Collaboration • Innovation • Excellence • Client-Centric Approach</p>
+        <h1>Strategic Vision</h1>
+        <p>Becoming the leading web development partner for businesses seeking digital transformation</p>
+        <a href="https://www.youtube.com/watch?v=aBlsrtxuwss" class="btn" target="_blank">▶ Watch Vision Video</a>
+        <h1>Company Video</h1>
+        <p>Watch our CEO's vision for the future of web development and digital innovation</p>
+        
+        <div class="slide-dots">
+            <span class="dot active" onclick="showSlide(0)"></span>
+            <span class="dot" onclick="showSlide(1)"></span>
+            <span class="dot" onclick="showSlide(2)"></span>
+            <span class="dot" onclick="showSlide(3)"></span>
+            <span class="dot" onclick="showSlide(4)"></span>
+            <span class="dot" onclick="showSlide(5)"></span>
+            <span class="dot" onclick="showSlide(6)"></span>
+            
+        </div>
+    </div>
+
+    <!-- leadership -->
+    <div id="leadership" class="section">
+        <div class="section-content">
+            <div class="section-wrapper">
+                <h2 class="section-title">Leadership Corner</h2>
+                <div class="leader-message card">
+                    <img src="images/pexels-pixabay-270360.jpg" alt="CEO" class="leader-avatar">
+                    <div class="leader-text">
+                        <h3>Our Vision & Expectations</h3>
+                        <p>"As we embark on this transformative journey in web development, my vision is clear: to create an organization where innovation meets excellence, and where every project becomes a testament to our commitment to quality. I expect each team member to embrace cutting-edge technologies, push the boundaries of what's possible, and deliver solutions that not only meet but exceed our clients' expectations. Our outlook is ambitious - we aim to be the industry leader in custom web solutions, setting new standards for technical excellence and customer satisfaction. Together, we will build a legacy of innovation, one project at a time, transforming businesses through the power of exceptional web development."</p>
+                        <span class="leader-name">- Aman, Founder & CEO</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- moments -->
+    <div id="moments" class="section alt-bg">
+        <div class="section-content">
+            <div class="section-wrapper">
+                <h2 class="section-title">Moments</h2>
+                <div class="grid">
+                    <div class="card">
+                        <img src="images/leadershiptraning.jpg" alt="Training Session">
+                        <h3>Leadership Training</h3>
+                        <p>Intensive workshop on strategic thinking and team management practices</p>
+                        
+                    </div>
+                    <div class="card">
+                        <img src="images/workshop.jpg" alt="Workshop">
+                        <h3>Innovation Workshop</h3>
+                        <p>Creative brainstorming session with cross-functional teams</p>
+                       
+                    </div>
+                    <div class="card">
+                        <img src="images/team.jpg" alt="Team Event">
+                        <h3>Team Building Event</h3>
+                        <p>Collaborative activities to strengthen team bonds and communication</p>
+                       
+                    </div>
+                    <div class="card">
+                        <img src="images/stakeholder.jpg" alt="Engagement">
+                        <h3>Stakeholder Engagement</h3>
+                        <p>Presentation of project milestones and achievements to leadership</p>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- hub-->
+    <div id="hub" class="section">
+        <div class="section-content">
+            <div class="section-wrapper">
+                <h2 class="section-title">Hub</h2>
+                <div class="hub-tabs">
+                    <button class="tab-button active" onclick="showTab('tools')">Digital Tools</button>
+                    <button class="tab-button" onclick="showTab('data')">Data</button>
+                    
+                </div>
+                <div class="hub-content">
+                    
+                    <div id="tools-tab" class="tab-content active">
+                        <h3>Digital Tools</h3>
+                        <div class="grid-3">
+                            <div class="card">
+                                <h4>React Documentation</h4>
+                                <p>Official React docs, tutorials, and best practices</p>
+                                <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started" class="resource-link">Learn React →</a>
+                            </div>
+                            <div class="card">
+                                <h4>JavaScript Resources</h4>
+                                <p>Modern ES6+ features and advanced JavaScript concepts</p>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide" class="resource-link">Master JS →</a>
+                            </div>
+                            <div class="card">
+                                <h4>CSS Frameworks</h4>
+                                <p>Tailwind, Bootstrap, and modern CSS techniques</p>
+                                <a href="https://tailwindcss.com/" class="resource-link">Style Guide →</a>
+                            </div>
+                            <div class="card">
+                                <h4>Node.js Guides</h4>
+                                <p>Backend development with Node.js and Express</p>
+                                <a href="https://nodejs.org/en/learn/getting-started/introduction-to-nodejs" class="resource-link">Backend Skills →</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="data-tab" class="tab-content">
+                        <h3>Data Resources</h3>
+                        <div class="grid-3">
+                            <div class="card">
+                                <h4>Analytics Dashboard</h4>
+                                <p>Real-time project metrics and KPIs for performance tracking</p>
+                               
+                            </div>
+                            <div class="card">
+                                <h4>Training Database</h4>
+                                <p>Comprehensive repository of training materials and resources</p>
+                               
+                            </div>
+                            <div class="card">
+                                <h4>Performance Reports</h4>
+                                <p>Detailed analysis and insights on project progress</p>
+                                
+                            </div>
+                            <div class="card">
+                                <h4>Research Papers</h4>
+                                <p>Latest industry research and case studies for learning</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Latest Projects -->
+    <div id="latest" class="section alt-bg">
+        <div class="section-content">
+            <h2 class="section-title">Latest Projects</h2>
+            <div class="latest-card card">
+                <img src="images/pexels-fotios-photos-811587.jpg" alt="Attendance Management System">
+                <div class="latest-info">
+                    <h3>Company Attendance Management System</h3>
+                    <p class="latest-date">Completed: March 28, 2026</p>
+                    <p>We successfully delivered a comprehensive attendance management system that revolutionizes how companies track employee productivity. The platform features real-time attendance tracking, automated break time calculations, and detailed productivity analytics. Key features include biometric integration, GPS-based check-in/out, automated break detection, and comprehensive reporting dashboards. The system calculates productive hours versus break time, providing managers with actionable insights to optimize workforce efficiency. Built with React, Node.js, and advanced analytics algorithms, this solution has helped our client improve productivity tracking by 85% and reduce manual administrative overhead by 70%.</p>
+                    <div class="latest-stats">
+                        <span class="stat"><strong>4</strong> Months Development</span>
+                        <span class="stat"><strong>8</strong> Team Members</span>
+                        <span class="stat"><strong>500+</strong> Employees Tracked</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- reflections -->
+    <div id="reflections" class="section">
+        <div class="section-content">
+            <div class="section-wrapper">
+                <h2 class="section-title">Reflections</h2>
+                <div class="grid-4">
+                    <div class="card">
+                        <img src="images/pexels-hakim-level-1458090143-36495537.jpg" alt="Participant" class="participant-avatar">
+                        <div class="reflection-content">
+                            <p>"The React training program transformed my approach to component-based development. Learning about hooks and state management has made my code 10x more efficient and maintainable. The hands-on projects were invaluable!"</p>
+                            <span class="participant-name">- Aakash, Frontend Developer</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/pexels-suvan-chowdhury-37305-1606655.jpg" alt="Participant" class="participant-avatar">
+                        <div class="reflection-content">
+                            <p>"Node.js backend training opened up a whole new world for me. Understanding microservices architecture and API design has been crucial for our recent project success. The practical examples were spot-on!"</p>
+                            <span class="participant-name">- Hariom, Backend Developer</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/pexels-negativespace-34140.jpg" alt="Participant" class="participant-avatar">
+                        <div class="reflection-content">
+                            <p>"The advanced CSS workshop taught me modern techniques I never knew existed. Grid layouts, animations, and responsive design principles have completely elevated my UI skills. Game-changing experience!"</p>
+                            <span class="participant-name">- Harsh, UI/UX Designer</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/pexels-pixabay-270360.jpg" alt="Participant" class="participant-avatar">
+                        <div class="reflection-content">
+                            <p>"Database optimization training was exactly what I needed. Learning about query performance, indexing strategies, and scalable architecture has already improved our application speed by 40%. Highly recommended!"</p>
+                            <span class="participant-name">- Mrutunjay, Database Administrator</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- project Diaries -->
+    <div id="diaries" class="section alt-bg">
+        <div class="section-content">
+            <div class="section-wrapper">
+                <h2 class="section-title">Project Diaries</h2>
+                <div class="grid">
+                    <div class="card">
+                        <div class="diary-header">
+                            <h3>Attendance System Performance Optimization</h3>
+                            <span class="team-info">Backend Team • Performance Unit</span>
+                        </div>
+                        <img src="images/pexels-pixabay-270669.jpg" alt="Performance Optimization">
+                        <div class="diary-content">
+                            <p><strong>Challenge:</strong> The attendance management system was experiencing slow query responses with 500+ concurrent users, causing dashboard loading delays of 8-10 seconds.</p>
+                            <p><strong>Solution:</strong> Implemented database indexing, query optimization, and Redis caching layer. Refactored API endpoints and introduced asynchronous processing for bulk operations.</p>
+                            <p><strong>Impact:</strong> Reduced query response time by 75%, improved dashboard loading to under 2 seconds, and successfully handled 1000+ concurrent users during peak hours.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- progress Tracke-->
+    <div id="progress" class="section">
+        <div class="section-content">
+            <div class="section-wrapper">
+                <h2 class="section-title">Progress Tracker</h2>
+                <div class="grid-2">
+                    <div class="card">
+                        <h3>Training Completion Rates</h3>
+                        <div class="progress-card">
+                            <h4>React Development Training</h4>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 92%"></div>
+                            </div>
+                            <span class="progress-percentage">92%</span>
+                            <p>24 participants completed</p>
+                        </div>
+                        <div class="progress-card">
+                            <h4>Node.js Backend Training</h4>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 88%"></div>
+                            </div>
+                            <span class="progress-percentage">88%</span>
+                            <p>22 participants completed</p>
+                        </div>
+                        <div class="progress-card">
+                            <h4>Advanced CSS Workshop</h4>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 95%"></div>
+                            </div>
+                            <span class="progress-percentage">95%</span>
+                            <p>19 participants completed</p>
+                        </div>
+                        <div class="progress-card">
+                            <h4>Database Optimization</h4>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 78%"></div>
+                            </div>
+                            <span class="progress-percentage">78%</span>
+                            <p>18 participants completed</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>Participants Across Units</h3>
+                        <div class="unit-stats">
+                            <div class="unit-stat">
+                                <span>Frontend Unit: 45 Participants</span>
+                                <div class="mini-bar"><div style="width: 90%"></div></div>
+                            </div>
+                            <div class="unit-stat">
+                                <span>Backend Unit: 38 Participants</span>
+                                <div class="mini-bar"><div style="width: 76%"></div></div>
+                            </div>
+                            <div class="unit-stat">
+                                <span>Mobile Unit: 28 Participants</span>
+                                <div class="mini-bar"><div style="width: 56%"></div></div>
+                            </div>
+                            <div class="unit-stat">
+                                <span>Database Unit: 22 Participants</span>
+                                <div class="mini-bar"><div style="width: 44%"></div></div>
+                            </div>
+                            <div class="unit-stat">
+                                <span>DevOps Unit: 18 Participants</span>
+                                <div class="mini-bar"><div style="width: 36%"></div></div>
+                            </div>
+                            <div class="unit-stat">
+                                <span>UI/UX Unit: 15 Participants</span>
+                                <div class="mini-bar"><div style="width: 30%"></div></div>
+                            </div>
+                        </div>
+                        <div class="metrics-grid">
+                            <div class="metric">
+                                <span class="metric-number">166</span>
+                                <span class="metric-label">Total Participants</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-number">88%</span>
+                                <span class="metric-label">Avg. Completion</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-number">12</span>
+                                <span class="metric-label">Training Programs</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-number">6</span>
+                                <span class="metric-label">Active Units</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+
+ 
+
+    <script src="script.js"></script>
+</body>
+</html>
